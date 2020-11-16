@@ -1,0 +1,7 @@
+/* optional: add some border to your canvas */
+canvas {
+    border: 10px;
+    border-color: royalblue;
+    border-style: solid;
+
+}
