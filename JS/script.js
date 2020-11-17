@@ -73,9 +73,9 @@ function drawText() {
 }
 
 const logoImg = new Image();
-logoImg.src = './IMG/IHlogo_new_blue.png'
+logoImg.src = './IMG/IHlogo_new_blue.png';
 
 logoImg.addEventListener('load', () => {
   context.drawImage(logoImg, 420, 425, 70, 70);
   logoImg();
-})
+});
