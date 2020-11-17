@@ -5,3 +5,15 @@ canvas {
     border-style: solid;
 
 }
+
+.btnGrp button{
+background-color: dodgerblue;
+font-weight: bolder;
+font-size: large;
+text-align: center;
+display: block;
+flex-direction: column-reverse;
+margin-left: 25%;
+margin-top: -5%;
+
+}

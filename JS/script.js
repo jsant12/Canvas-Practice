@@ -71,3 +71,11 @@ function drawText() {
   context.font = "30px sans-serif";
   context.fillText("Ironhack", 300, 475);
 }
+
+const logoImg = new Image();
+logoImg.src = './IMG/IHlogo_new_blue.png'
+
+logoImg.addEventListener('load', () => {
+  context.drawImage(logoImg, 420, 425, 70, 70);
+  logoImg();
+})
