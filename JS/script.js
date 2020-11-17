@@ -18,20 +18,20 @@ function strokeRect() {
 function drawRectPath() {
   context.beginPath();
 
-  context.lineWidth = 1;
+  context.lineWidth = 10;
   context.strokeStyle = "green";
   
   context.moveTo(100, 10);
   context.lineTo(300, 10);
 
-  context.moveTo(300, 10);
-  context.lineTo(300, 200);
+  context.moveTo(295, 10);
+  context.lineTo(295, 200);
 
   context.moveTo(300, 200);
-  context.lineTo(100, 200);
+  context.lineTo(95, 200);
 
   context.moveTo(100, 200);
-  context.lineTo(100, 10);
+  context.lineTo(100, 5);
   context.stroke();
 
   context.closePath();
